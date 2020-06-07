@@ -1,0 +1,245 @@
+[
+  {
+    "createdAt": "2020-02-09T18:29:39.820Z",
+    "_id": "5e404f9a9f1a5221c4dae6e0",
+    "name": "Carregador 3.1A",
+    "price": 20,
+    "amount": 0,
+    "url_image": "https://uploadnatanaelvich.s3.sa-east-1.amazonaws.com/6c127597bb71073901fc1455e8537a3b-Carrregado-3.1-knup.jpg",
+    "__v": 0
+  },
+  {
+    "createdAt": "2020-02-09T18:29:39.820Z",
+    "_id": "5e404f9a9f1a5221c4dae6e1",
+    "name": "Carregador Uni",
+    "price": 15,
+    "amount": 8,
+    "url_image": "https://uploadnatanaelvich.s3.amazonaws.com/1a3390d1c0be9d1ef704a4d9af2ac85f-carregador-universal.jpg",
+    "__v": 0
+  },
+  {
+    "createdAt": "2020-02-09T18:29:39.820Z",
+    "_id": "5e404f9b9f1a5221c4dae6e2",
+    "name": "Pendrive 16g",
+    "price": 30,
+    "amount": 9,
+    "url_image": "https://uploadnatanaelvich.s3.sa-east-1.amazonaws.com/6f195792856df43ef66e3a1e4685b715-pendrive-16g.png",
+    "__v": 0
+  },
+  {
+    "createdAt": "2020-02-09T18:29:39.820Z",
+    "_id": "5e404f9b9f1a5221c4dae6e3",
+    "name": "Cartao 16g",
+    "price": 30,
+    "amount": 4,
+    "url_image": "https://uploadnatanaelvich.s3.sa-east-1.amazonaws.com/45f5f82b68f6cdf0e780f48fb59e789e-cartao-sd-16.jpg",
+    "__v": 0
+  },
+  {
+    "createdAt": "2020-02-09T18:29:39.820Z",
+    "_id": "5e404f9b9f1a5221c4dae6e4",
+    "name": "Cabo de caixinha",
+    "price": 10,
+    "amount": 1,
+    "url_image": "https://uploadnatanaelvich.s3.sa-east-1.amazonaws.com/0d6a9b65e8c32d88c86bd5acdb7b6678-cabo-caixinha-de-som.jpg",
+    "__v": 0
+  },
+  {
+    "createdAt": "2020-02-09T18:29:39.820Z",
+    "_id": "5e404f9b9f1a5221c4dae6e5",
+    "name": "Cabo OTG",
+    "price": 10,
+    "amount": 4,
+    "url_image": "https://uploadnatanaelvich.s3.sa-east-1.amazonaws.com/aba60672ce6b2a817e6fc08d5c565fe6-cabo-otg.jpg",
+    "__v": 0
+  },
+  {
+    "createdAt": "2020-02-09T18:29:39.820Z",
+    "_id": "5e404f9b9f1a5221c4dae6e6",
+    "name": "Mobile JT",
+    "price": 5,
+    "amount": 3,
+    "url_image": "https://uploadnatanaelvich.s3.sa-east-1.amazonaws.com/8d79765be2e7cd17f19c339f8e6e32ac-jt-mobile.jpg",
+    "__v": 0
+  },
+  {
+    "createdAt": "2020-02-09T18:29:39.820Z",
+    "_id": "5e404f9b9f1a5221c4dae6e7",
+    "name": "Carregador V.",
+    "price": 10,
+    "amount": 4,
+    "url_image": "https://uploadnatanaelvich.s3.sa-east-1.amazonaws.com/7860ec5cab66a8ebfdf5f8d0fa7fe7be-carregador-veicular-portas-usb-preto-048-bright.png",
+    "__v": 0
+  },
+  {
+    "createdAt": "2020-02-09T18:29:39.820Z",
+    "_id": "5e404f9b9f1a5221c4dae6e8",
+    "name": "Capinhas",
+    "price": 15,
+    "amount": 66,
+    "url_image": "https://uploadnatanaelvich.s3.sa-east-1.amazonaws.com/0e40fc92d9168db9ac43cc4acbb0165b-capas.jpg",
+    "__v": 0
+  },
+  {
+    "createdAt": "2020-02-09T18:29:39.820Z",
+    "_id": "5e404f9c9f1a5221c4dae6e9",
+    "name": "Cabo de Fone",
+    "price": 15,
+    "amount": 6,
+    "url_image": "https://uploadnatanaelvich.s3.sa-east-1.amazonaws.com/9bde99fa00b48dfbe06b9f56dfe791b1-cabo-de-fone.jpg",
+    "__v": 0
+  },
+  {
+    "createdAt": "2020-02-09T18:29:39.820Z",
+    "_id": "5e404f9c9f1a5221c4dae6ea",
+    "name": "Cabo HDMI Celular",
+    "price": 50,
+    "amount": 3,
+    "url_image": "https://uploadnatanaelvich.s3.sa-east-1.amazonaws.com/ff2385845f03dde56922edbb5e96a910-cabo-hdmi-cel.jpg",
+    "__v": 0
+  },
+  {
+    "createdAt": "2020-02-09T18:29:39.820Z",
+    "_id": "5e404f9c9f1a5221c4dae6eb",
+    "name": "Fone de ouvido SM",
+    "price": 15,
+    "amount": 3,
+    "url_image": "https://uploadnatanaelvich.s3.sa-east-1.amazonaws.com/0b63e9a85df6c53223dd3a038a8dfc02-fone-SM.jpg",
+    "__v": 0
+  },
+  {
+    "createdAt": "2020-02-09T18:29:39.820Z",
+    "_id": "5e404f9c9f1a5221c4dae6ec",
+    "name": "Cabo hdmi",
+    "price": 25,
+    "amount": 2,
+    "url_image": "https://uploadnatanaelvich.s3.sa-east-1.amazonaws.com/0be04bc14d2a4542eca79773197fd8b1-cabo-hdmi.jpg",
+    "__v": 0
+  },
+  {
+    "createdAt": "2020-02-09T18:29:39.820Z",
+    "_id": "5e404f9c9f1a5221c4dae6ed",
+    "name": "Pocket Capinha",
+    "price": 10,
+    "amount": 1,
+    "url_image": "https://uploadnatanaelvich.s3.sa-east-1.amazonaws.com/f5291de9408718e00156c041f8f7db4f-pokets.jpg",
+    "__v": 0
+  },
+  {
+    "createdAt": "2020-02-09T18:29:39.820Z",
+    "_id": "5e404f9c9f1a5221c4dae6ee",
+    "name": "Cabo OTG mini",
+    "price": 5,
+    "amount": 2,
+    "url_image": "https://uploadnatanaelvich.s3.sa-east-1.amazonaws.com/dfb4ca8516491585d50d0ffd14c831ee-otg-mini.jpg",
+    "__v": 0
+  },
+  {
+    "createdAt": "2020-02-09T18:29:39.820Z",
+    "_id": "5e404f9c9f1a5221c4dae6ef",
+    "name": "HeadFone",
+    "price": 25,
+    "amount": 2,
+    "url_image": "https://uploadnatanaelvich.s3.sa-east-1.amazonaws.com/2d9607b9bbfa8aed9ba95a7ebc19a08e-headfone.png",
+    "__v": 0
+  },
+  {
+    "createdAt": "2020-02-09T18:29:39.820Z",
+    "_id": "5e404f9c9f1a5221c4dae6f0",
+    "name": "Lamparina Multifuncional",
+    "price": 30,
+    "amount": 3,
+    "url_image": "https://uploadnatanaelvich.s3.sa-east-1.amazonaws.com/e9e18cd3bbe5627c895cf9d30cfdfe2f-lamparina.jpg",
+    "__v": 0
+  },
+  {
+    "createdAt": "2020-02-09T18:29:39.820Z",
+    "_id": "5e404f9c9f1a5221c4dae6f1",
+    "name": "Chip Claro",
+    "price": 10,
+    "amount": 2,
+    "url_image": "https://uploadnatanaelvich.s3.sa-east-1.amazonaws.com/ab32550950b095b4bdb9456640c4be9d-claro.jpg",
+    "__v": 0
+  },
+  {
+    "createdAt": "2020-02-09T18:29:39.820Z",
+    "_id": "5e404f9d9f1a5221c4dae6f2",
+    "name": "Chip Tim",
+    "price": 10,
+    "amount": 2,
+    "url_image": "https://uploadnatanaelvich.s3.sa-east-1.amazonaws.com/921f7adda0b5e5bcad94fd5557655b99-tim%20logo.png",
+    "__v": 0
+  },
+  {
+    "createdAt": "2020-02-09T18:29:39.820Z",
+    "_id": "5e404f9d9f1a5221c4dae6f3",
+    "name": "Peliculas Varios M.",
+    "price": 10,
+    "amount": 115,
+    "url_image": "https://uploadnatanaelvich.s3.sa-east-1.amazonaws.com/44b091b9b92a36a48473ca23d129a347-peliculas.jpg",
+    "__v": 0
+  },
+  {
+    "createdAt": "2020-02-09T18:29:39.820Z",
+    "_id": "5e404f9d9f1a5221c4dae6f4",
+    "name": "Fone de ouvido inova 6704",
+    "price": 10,
+    "amount": 5,
+    "url_image": "https://uploadnatanaelvich.s3.sa-east-1.amazonaws.com/8c5a85b827e438e9951ac58b2373e63c-Fone-de-ouvido-inova-6704.jpg",
+    "__v": 0
+  },
+  {
+    "createdAt": "2020-02-09T18:29:39.820Z",
+    "_id": "5e404f9d9f1a5221c4dae6f5",
+    "name": "Cabo usb le-1024",
+    "price": 5,
+    "amount": 8,
+    "url_image": "https://uploadnatanaelvich.s3.sa-east-1.amazonaws.com/81d0e5b81d0e12dfcc02b90099f6131e-cabo-micro-usb-le-1024.jpg",
+    "__v": 0
+  },
+  {
+    "createdAt": "2020-02-09T18:29:39.820Z",
+    "_id": "5e404f9d9f1a5221c4dae6f6",
+    "name": "Cabo micro usb itblue",
+    "price": 12,
+    "amount": 1,
+    "url_image": "https://uploadnatanaelvich.s3.sa-east-1.amazonaws.com/3c85f82de43672ea6f340e96a21181fa-cabo-micro-usb-itblue%202.1A.jpg",
+    "__v": 0
+  },
+  {
+    "createdAt": "2020-02-09T18:29:39.820Z",
+    "_id": "5e404f9d9f1a5221c4dae6f7",
+    "name": "Fone de ouvido lelong 0206",
+    "price": 20,
+    "amount": 4,
+    "url_image": "https://uploadnatanaelvich.s3.sa-east-1.amazonaws.com/f10d02411680ff4b39853ab977a42d83-fone-de-ouvido-0205.jpg",
+    "__v": 0
+  },
+  {
+    "createdAt": "2020-02-09T18:29:39.820Z",
+    "_id": "5e404f9d9f1a5221c4dae6f8",
+    "name": "Caixa de som grasep bh1018",
+    "price": 40,
+    "amount": 1,
+    "url_image": "https://uploadnatanaelvich.s3.sa-east-1.amazonaws.com/d069ed07a24ff8ba45ed865f563d8517-caixa%20de%20som%20R%2440.png",
+    "__v": 0
+  },
+  {
+    "createdAt": "2020-02-09T18:29:39.820Z",
+    "_id": "5e404f9e9f1a5221c4dae6f9",
+    "name": "Caixa de som grasep bh887",
+    "price": 30,
+    "amount": 4,
+    "url_image": "https://uploadnatanaelvich.s3.sa-east-1.amazonaws.com/44cb3a378581ce194922c949b928e0c7-caixinha-mini.jpg",
+    "__v": 0
+  },
+  {
+    "createdAt": "2020-02-12T12:47:30.860Z",
+    "_id": "5e43f75ffe0d2d0021da999c",
+    "name": "Pendrive 8g",
+    "price": 30,
+    "amount": 9,
+    "url_image": "https://uploadnatanaelvich.s3.amazonaws.com/699b1b6e85a1f5f15d889074fcb03308-pendrive-8g.png",
+    "__v": 0
+  }
+]
