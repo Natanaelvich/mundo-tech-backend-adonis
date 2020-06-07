@@ -5,8 +5,8 @@ const Route = use('Route')
 
 Route.post('sessions', 'SessionController.store')
 
-Route.resource('categories', 'CategoryController').apiOnly()
+Route.resource('categories', 'CategoryController').apiOnly().middleware('auth')
 
-Route.resource('products', 'ProductController').apiOnly()
+Route.resource('products', 'ProductController').apiOnly().middleware('auth')
 
-Route.resource('sales', 'SaleController').apiOnly()
+Route.resource('sales', 'SaleController').apiOnly().middleware('auth')
