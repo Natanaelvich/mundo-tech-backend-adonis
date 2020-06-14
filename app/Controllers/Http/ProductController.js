@@ -81,6 +81,7 @@ class ProductController {
    * @param {View} ctx.view
    */
   async show ({ params, request, response, view }) {
+
   }
 
   /**
@@ -92,6 +93,57 @@ class ProductController {
    * @param {Response} ctx.response
    */
   async update ({ params, request, response }) {
+    try {
+      const product = await Product
+        .find(params.id)
+
+      if (!product) {
+        return response.status(404).send({ error: 'product not found' })
+      }
+
+      const { name, amount, categoryId, price } = request.all()
+
+      let urlImage = null
+
+      if (request.file('file')) {
+        const upload = request.file('file', { size: '2mb' })
+
+        const fileName = `${Date.now()}-${name.split(' ').join('+')}.${upload.subtype}`
+
+        urlImage = `${Env.get('APP_URL')}/files/${fileName}`
+
+        await upload.move(Helpers.tmpPath('uploads'), {
+          name: fileName
+        })
+
+        if (!upload.moved()) {
+          throw upload.error()
+        }
+      }
+
+      if (urlImage) {
+        product.merge({
+          name,
+          amount,
+          price,
+          url_image: urlImage,
+          category_id: categoryId
+        })
+      } else {
+        product.merge({
+          name,
+          amount,
+          price,
+          category_id: categoryId
+        })
+      }
+
+      product.save()
+
+      return product
+    } catch (error) {
+      return response.status(error.status).send({ error: 'upddate product fails' })
+    }
   }
 
   /**
