@@ -2,6 +2,8 @@
 
 /** @type {typeof import('@adonisjs/lucid/src/Lucid/Model')} */
 const Product = use('App/Models/Product')
+const Helpers = use('Helpers')
+const Env = use('Env')
 
 /** @typedef {import('@adonisjs/framework/src/Request')} Request */
 /** @typedef {import('@adonisjs/framework/src/Response')} Response */
@@ -38,16 +40,35 @@ class ProductController {
    */
 
   async store ({ request, response }) {
-    const { name, amount, categoryId, price } = request.all()
+    try {
+      if (!request.file('file')) return
+      const { name, amount, categoryId, price } = request.all()
 
-    const product = Product.create({
-      name,
-      amount,
-      price,
-      category_id: categoryId
-    })
+      const upload = request.file('file', { size: '2mb' })
 
-    return product
+      const fileName = `${Date.now()}-${name.split(' ').join('+')}.${upload.subtype}`
+
+      const urlImage = `${Env.get('APP_URL')}/files/${fileName}`
+
+      const product = Product.create({
+        name,
+        amount,
+        price,
+        url_image: urlImage,
+        category_id: categoryId
+      })
+
+      await upload.move(Helpers.tmpPath('uploads'), {
+        name: fileName
+      })
+
+      if (!upload.moved()) {
+        throw upload.error()
+      }
+      return product
+    } catch (error) {
+      return response.status(404).send({ error: 'file not found' })
+    }
   }
 
   /**

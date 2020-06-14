@@ -10,3 +10,5 @@ Route.resource('categories', 'CategoryController').apiOnly().middleware('auth')
 Route.resource('products', 'ProductController').apiOnly().middleware('auth')
 
 Route.resource('sales', 'SaleController').apiOnly().middleware('auth')
+
+Route.get('files/:nameimage', 'FileController.show')

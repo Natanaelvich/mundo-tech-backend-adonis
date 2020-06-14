@@ -10,6 +10,7 @@ class ProductSchema extends Schema {
       table.string('name').notNullable()
       table.integer('amount').notNullable()
       table.integer('price').notNullable()
+      table.string('url_image').notNullable()
       table.integer('category_id')
         .unsigned()
         .references('id')

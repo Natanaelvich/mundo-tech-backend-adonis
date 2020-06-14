@@ -26,6 +26,7 @@ class ProductSeeder {
           name: p.name,
           amount: p.amount,
           price: p.price,
+          url_image: p.url_image,
           category_id: 1
         })
       } catch (error) {
